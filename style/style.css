@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    margin-top: 3px;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+}
+
+#rangee_1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+#rangee_2 {
+    color: red;
+    font-size: 30px;
+    padding-left: 100px;
+}
+
+#menu_1, #menu_2, #menu_3 {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    border: solid black 3px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#svg {
+    display: flex;
+    width: 800px;
+    height: 1000px;
+    overflow: visible;
+}
+
+#bouton_dessinez {
+    width: 80px;
+}
+
+.cacher_div {
+    display: none;
+}

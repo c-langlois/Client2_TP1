@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client 2 - TP1</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/coloris.css"/>
+</head>
+<body>
+    <div id="principal">
+        <div id="rangee_1">
+            <div id="menu_1">
+                <p>Choississez un type de forme:</p>
+                <p>
+                    <input type="radio" name="radio_forme" id="radio_cercle">
+                    <label for="radio_cercle">Cercle</label>
+                </p>
+                <p>
+                    <input type="radio" name="radio_forme" id="radio_rectangle">
+                    <label for="radio_rectangle">Rectangle</label>
+                </p>
+                <p>
+                    <input type="radio" name="radio_forme" id="radio_triangle">
+                    <label for="radio_triangle">Triangle</label>
+                </p>
+            </div>
+            <div id="menu_2">
+                <p>
+                    <label for="couleur_contour">Choississez une couleur de contour:</label>
+                    <input type="text" id="couleur_contour" data-coloris>
+                </p>
+                <p>
+                    <label for="couleur_remplissage">Choississez une couleur de remplissage:</label>
+                    <input type="text" id="couleur_remplissage" data-coloris>
+                </p>
+                <p>
+                    <label for="epaisseur_contour">Choississez une épaisseur de contour:</label>
+                    <input type="text" id="epaisseur_contour">
+                </p>
+            </div>
+            <div id="menu_3">
+                <div id="menu_3_cercle" class="cacher_div">
+                    <p>
+                        <label for="rayon">Rayon</label>
+                        <input type="text" name="rayon" id="rayon">
+                    </p>
+                </div>
+                <div id="menu_3_rectangle" class="cacher_div">
+                    <p>
+                        <label for="hauteur_rect">Hauteur</label>
+                        <input type="text" name="hauteur_rect" id="hauteur_rect">
+                    </p>
+                    <p>
+                        <label for="hauteur_rect">Largeur</label>
+                        <input type="text" name="largeur_rect" id="largeur_rect">
+                    </p>
+                </div>
+                <div id="menu_3_triangle" class="cacher_div">
+                    <p>
+                        <label for="segment">Segment</label>
+                        <input type="text" name="segment" id="segment">
+                    </p>
+                </div>
+                <button id="bouton_dessinez">Dessinez</button>
+            </div>
+        </div>
+        <div id="rangee_2">
+        </div>
+    </div>
+    <script src="./script/script.js"></script>
+    <script src="./script/coloris.js"></script>
+</body>
+</html>
